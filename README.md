@@ -8,6 +8,9 @@ Terminal que funciona 100%  -> deepin-terminal, instale usando o comando abaixo.
 ``` shell
 sudo apt-get install deepin-terminal -y
 ```
+
+![alt text](image/01_instalado.png)
+
 Após instalar, abra o deepin-terminal e execute os comando abaixo!
 
 
@@ -23,12 +26,15 @@ __2º)__ Verificar se foram instalados com sucesso.
 which git curl zsh
 ```
 
+![alt text](image/02_instalado.png)
+
 ## Instale as firulas
 
 __1º)__ .oh-my-zsh -> habilita e pré configurar o zsh.
 ``` shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+![alt text](image/03_instalado.png)
 
 __2º)__ powerlevel9k -> personalizar a barra de endereço do terminal.
 ``` shell
@@ -44,21 +50,25 @@ __4º)__ zsh-autosuggestions -> autocompleta o que você está digitando a parti
 ``` shell
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
+![alt text](image/04_instalado.png)
 
 __4º)__ hack nerd-font -> instalação da font que dá suporte para personalizar as ligaduras dos textos.
 
-Baixar
+Baixar -> execute no terminal 
 ``` shell
-wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+> wget -c -P '/home/'$USER'/Downloads' https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
 ```
-Instalar
-``` shell
-file "Hack Regular Nerd Font Complete.ttf"
-```
+
+Instalar -> vá na pasta downloads e abra a font dando dois cliques sobre e instale a mesma clicando em "instalar".
+
+![alt text](image/11_instalado.png)
+
+Retorne para o terminal.
+
 
 ## Configure
 
-__1º)__ Execute o comando abaixo para habilitar ZSH
+__1º)__ Execute o comando abaixo para habilitar as configurações do ZSH.
 ``` shell
 echo 'export ZSH="/home/'$USER'/.oh-my-zsh"
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -83,8 +93,34 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true' > ~/.zshrc
 ```
 
-__2º)__ Mude a font default do seu terminal, vá em configurações e mude a fort para __Hach Nerd Font__.
+![alt text](image/06_instalado.png)
 
 
-### Finalizando
-Tudo pronto feche o terminal e abra novamente.
+__2º)__ Feche o terminal e abra novamente. Já vai ter mudado algumas coisas.
+
+![alt text](image/10_instalado.png)
+
+__3º)__ Mude a font default do seu terminal, vá em configurações e mude a fort para __Hach Nerd Font__. 
+
+![alt text](image/08_instalado.png)
+
+
+__4º)__ Escolha o tema de sua preferência.
+
+![alt text](image/09_instalado.png)
+
+
+## Resultado final 
+
+Auto complete/Auto sugestão
+
+![alt text](image/12_instalado.png)
+
+Highlighting caso exista, ficará verde, caso não vermelho.
+
+![alt text](image/13_instalado.png)
+
+
+Resultado final
+
+![alt text](image/14_instalado.png)
