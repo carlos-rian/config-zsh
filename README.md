@@ -18,7 +18,7 @@ __1º)__ Instale as dependências
 sudo apt-get install git curl zsh -y
 ```
 
-__2º)__ Verificas se foram instalados as dependências 
+__2º)__ Verificar se foram instalados com sucesso.
 ``` shell
 which git curl zsh
 ```
@@ -86,4 +86,5 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true' > ~/.zshrc
 __2º)__ Mude a font default do seu terminal, vá em configurações e mude a fort para __Hach Nerd Font__.
 
 
+### Finalizando
 Tudo pronto feche o terminal e abra novamente.
