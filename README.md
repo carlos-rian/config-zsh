@@ -30,7 +30,7 @@ which git curl zsh
 
 ## Instale as firulas
 
-__1º)__ .oh-my-zsh -> habilita e pré configurar o zsh.
+__1º)__ .oh-my-zsh -> habilita e pré-configura o zsh.
 ``` shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -41,12 +41,12 @@ __2º)__ powerlevel9k -> personalizar a barra de endereço do terminal.
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ```
 
-__3º)__ zsh-syntax-highlighting -> caso o comando exista ele dá um highlighting na palavra .
+__3º)__ zsh-syntax-highlighting -> caso o comando exista, dará um highlight na palavra.
 ``` shell
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
 ```
 
-__4º)__ zsh-autosuggestions -> autocompleta o que você está digitando a partir do historico.
+__4º)__ zsh-autosuggestions -> autocompleta o que você está digitando à partir do histórico.
 ``` shell
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
