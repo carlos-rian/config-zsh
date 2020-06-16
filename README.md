@@ -130,3 +130,20 @@ Highlighting caso exista, ficará verde, caso não vermelho.
 Resultado final
 
 ![alt text](image/14_instalado.png)
+
+
+## Bonus - Vscode
+
+Para habilitar o terminal no vscode vá em __File > Preferences > Settings__!
+Digite na busca "terminal font" mude o valor de "__Terminal > Integrated: Font Family__" para  'Hack Nerd Font' em seguida abra o arquivo de Settings.json clicando em "Edit in settings.json", adicione ou substitua pelos valores abaixo.
+```json
+	"terminal.integrated.shell.linux": "/usr/bin/zsh",
+	"terminal.external.linuxExec": "deepin-terminal",
+	"terminal.integrated.env.linux": {
+
+	},
+	"terminal.integrated.fontSize": 18,
+	"terminal.integrated.env.windows": {
+
+	}
+```
