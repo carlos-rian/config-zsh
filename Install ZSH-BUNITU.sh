@@ -19,8 +19,9 @@ echo "\n=-=-=-=-= Installed powerlevel9k =-=-=-=-=-\n\n"
 
 # Install hack nerd-font
 echo "= Installing Hack Regular Nerd Font Complete =\n"
-wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
-file "Hack Regular Nerd Font Complete.ttf"
+wget -c -P '/home/'$USER'/Downloads' https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+xdg-open '/home/'$USER'/Downloads' && echo "VOU AGUARDAR 20 SEGUNDOS ATÉ VC INSTALAR A FONT" && sleep 20 && echo "OK, CONTINUANDO"
+
 echo "\n= Installed Hack Regular Nerd Font Complete =\n\n"
 
 
