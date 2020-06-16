@@ -90,7 +90,13 @@ POWERLEVEL9K_TIME_FORMAT="%D{%I:%M:%S %p}"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir dir_writable vcs ssh)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true' > ~/.zshrc
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_PYTHON_ICON='' #'\UE73C'
+POWERLEVEL9K_VIRTUALENV_BACKGROUND='red'
+POWERLEVEL9K_VIRTUALENV_FOREGROUND='white'
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs virtualenv time)
+' > ~/.zshrc
 ```
 
 ![alt text](image/06_instalado.png)
