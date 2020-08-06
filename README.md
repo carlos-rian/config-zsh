@@ -106,7 +106,7 @@ __2º)__ Feche o terminal e abra novamente. Já vai ter mudado algumas coisas.
 
 ![alt text](image/10_instalado.png)
 
-__3º)__ Mude a font default do seu terminal, vá em configurações e mude a fort para __Hach Nerd Font__. 
+__3º)__ Mude a font default do seu terminal, vá em configurações e mude a fort para __Hack Nerd Font__. 
 
 ![alt text](image/08_instalado.png)
 
