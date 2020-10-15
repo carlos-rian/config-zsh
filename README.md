@@ -56,7 +56,7 @@ __4º)__ hack nerd-font -> instalação da font que dá suporte para personaliza
 
 Baixar -> execute no terminal 
 ``` shell
-> wget -c -P '/home/'$USER'/Downloads' https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+wget -c -P '/home/'$USER'/Downloads' https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
 ```
 
 Instalar -> vá na pasta downloads e abra a font dando dois cliques sobre e instale a mesma clicando em "instalar".
