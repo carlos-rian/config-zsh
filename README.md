@@ -132,7 +132,7 @@ Resultado final
 ![alt text](image/14_instalado.png)
 
 
-## Bonus - Vscode
+## Bônus - Vscode
 
 Para habilitar o terminal no vscode vá em __File > Preferences > Settings__!
 Digite na busca "terminal font" mude o valor de "__Terminal > Integrated: Font Family__" para  'Hack Nerd Font' em seguida abra o arquivo de Settings.json clicando em "Edit in settings.json", adicione ou substitua pelos valores abaixo.
