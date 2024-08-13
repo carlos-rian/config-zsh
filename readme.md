@@ -1,6 +1,7 @@
 # Initial linux configuration 
 
 DISTRO: [UBUNTU 24.04](ms-windows-store://pdp?hl=en-us&gl=us&referrer=storeforweb&source=https%3A%2F%2Fwww.google.com%2F&productid=9nz3klhxdjp5&ocid=storeweb-pdp-open-cta)
+ms-windows-store://pdp?hl=en-us&gl=us&referrer=storeforweb&source=https%3A%2F%2Fwww.google.com%2F&productid=9nz3klhxdjp5&ocid=storeweb-pdp-open-cta
 
 
 ## 1. Update and upgrade
