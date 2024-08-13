@@ -62,8 +62,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 ```bash
 cp .zshrc ~/.zshrc
+cp .zshenv ~/.zshenv
 cp .p10k.zsh ~/.p10k.zsh
-echo ZSH_THEME="powerlevel10k/powerlevel10k" >> ~/.zshenv
 ```
 
 - Install pyenv
