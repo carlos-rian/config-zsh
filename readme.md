@@ -1,4 +1,6 @@
-# Initial linux configuration
+# Initial linux configuration 
+
+DISTRO: [UBUNTU 24.04](https://apps.microsoft.com/detail/9nz3klhxdjp5?hl=en-us&gl=US)
 
 
 ## 1. Update and upgrade
